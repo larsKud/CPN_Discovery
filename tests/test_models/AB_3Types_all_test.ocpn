@@ -1,0 +1,573 @@
+{
+  "ocpnName": "Demo OCPN",
+  "metadata": {
+    "name": "Demo OCPN",
+    "created": "2026-09-30T21:23:50.481Z",
+    "modified": "2026-09-30T21:23:50.481Z",
+    "generator": "OCPN Studio 0.8.4"
+  },
+  "petriNets": [
+    {
+      "id": "ID6",
+      "name": "AB_3Types_all_test",
+      "places": [
+        {
+          "id": "a",
+          "name": "red_start",
+          "colorSet": "red",
+          "initialMarking": "[1, 2, 3, 4, 5, 6]",
+          "marking": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "position": {
+            "x": -261,
+            "y": 141
+          },
+          "size": {
+            "width": 57,
+            "height": 30
+          },
+          "colorSetOffset": {
+            "x": 3.5623937890298656,
+            "y": 21.344157142052183
+          },
+          "tokenCountOffset": {
+            "x": 7.5,
+            "y": -35.5
+          },
+          "markingOffset": {
+            "x": -72.82569038335153,
+            "y": -49.75625042357548
+          }
+        },
+        {
+          "id": "c",
+          "name": "red_end",
+          "colorSet": "red",
+          "initialMarking": "",
+          "marking": [],
+          "position": {
+            "x": 187.11701007125748,
+            "y": 141.41450047665722
+          },
+          "size": {
+            "width": 65,
+            "height": 31
+          },
+          "colorSetOffset": {
+            "x": 18.405701243320973,
+            "y": 21.937889440223827
+          },
+          "tokenCountOffset": {
+            "x": 10,
+            "y": 10
+          },
+          "markingOffset": {
+            "x": 10,
+            "y": 10
+          }
+        },
+        {
+          "id": "node_1785495636556",
+          "name": "blue_start",
+          "colorSet": "blue",
+          "initialMarking": "[31,32,33,34,35,36]",
+          "marking": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "position": {
+            "x": -270.546611630748,
+            "y": 16.545109853849056
+          },
+          "size": {
+            "width": 64,
+            "height": 35
+          },
+          "colorSetOffset": {
+            "x": -8.467434967624092,
+            "y": 20.417195333536284
+          },
+          "tokenCountOffset": {
+            "x": -46.03237111729099,
+            "y": -34.63602238668432
+          },
+          "markingOffset": {
+            "x": -96.8314614264051,
+            "y": -74.88953432076602
+          }
+        },
+        {
+          "id": "node_1785495678808",
+          "name": "blue_end",
+          "colorSet": "blue",
+          "initialMarking": "",
+          "marking": [],
+          "position": {
+            "x": 170.89782894078627,
+            "y": 31.595544887947284
+          },
+          "size": {
+            "width": 61,
+            "height": 35
+          },
+          "colorSetOffset": {
+            "x": 7.526608860110303,
+            "y": 22.769260602320756
+          },
+          "tokenCountOffset": {
+            "x": 10,
+            "y": 10
+          },
+          "markingOffset": {
+            "x": 10,
+            "y": 10
+          }
+        },
+        {
+          "id": "node_1785495783709",
+          "name": "b1",
+          "colorSet": "blue",
+          "initialMarking": "",
+          "marking": [],
+          "position": {
+            "x": -13.84721914230223,
+            "y": 12.308609683914643
+          },
+          "size": {
+            "width": 35,
+            "height": 35
+          },
+          "colorSetOffset": {
+            "x": 19.403985617744418,
+            "y": 2.575800828096514
+          },
+          "tokenCountOffset": {
+            "x": 10,
+            "y": 10
+          },
+          "markingOffset": {
+            "x": 10,
+            "y": 10
+          }
+        },
+        {
+          "id": "node_1785495807075",
+          "name": "r1",
+          "colorSet": "red",
+          "initialMarking": "",
+          "marking": [],
+          "position": {
+            "x": -16.199284411086698,
+            "y": 134.61600366070707
+          },
+          "size": {
+            "width": 35,
+            "height": 35
+          },
+          "colorSetOffset": {
+            "x": 1.5859076051760486,
+            "y": 16.43430594898302
+          },
+          "tokenCountOffset": {
+            "x": 10,
+            "y": 10
+          },
+          "markingOffset": {
+            "x": 10,
+            "y": 10
+          }
+        },
+        {
+          "id": "node_1790803322837",
+          "name": "green_start",
+          "colorSet": "green",
+          "initialMarking": "[21,22,23,24,25,26]",
+          "marking": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "position": {
+            "x": -266.8700284972931,
+            "y": -53.961628616752016
+          },
+          "size": {
+            "width": 63,
+            "height": 35
+          },
+          "tokenCountOffset": {
+            "x": -23.009821311642547,
+            "y": -39.64626280221627
+          },
+          "markingOffset": {
+            "x": -65.91857485248974,
+            "y": -95.02974940036462
+          }
+        },
+        {
+          "id": "node_1790803324369",
+          "name": "green_end",
+          "colorSet": "green",
+          "initialMarking": "",
+          "marking": [],
+          "position": {
+            "x": -31.295654996381536,
+            "y": -57.92120150843388
+          },
+          "size": {
+            "width": 65,
+            "height": 35
+          }
+        }
+      ],
+      "transitions": [
+        {
+          "id": "b",
+          "name": "A",
+          "guard": "",
+          "time": "",
+          "priority": "P_NORMAL",
+          "codeSegment": "",
+          "position": {
+            "x": -111.01983785287396,
+            "y": 83.24107778261013
+          },
+          "size": {
+            "width": 70,
+            "height": 30
+          }
+        },
+        {
+          "id": "node_1785495776215",
+          "name": "B",
+          "guard": "",
+          "time": "",
+          "priority": "P_NORMAL",
+          "codeSegment": "",
+          "position": {
+            "x": 57.18515197498877,
+            "y": 85.2226330162332
+          },
+          "size": {
+            "width": 60,
+            "height": 30
+          }
+        }
+      ],
+      "arcs": [
+        {
+          "id": "a->b",
+          "source": "a",
+          "target": "b",
+          "inscription": "R1",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": -1.5,
+            "y": -4
+          }
+        },
+        {
+          "id": "587cdc75-e065-4c14-9704-86b0f131521a",
+          "source": "node_1785495636556",
+          "target": "b",
+          "inscription": "b1",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": 10,
+            "y": 10
+          }
+        },
+        {
+          "id": "e261db7d-c456-406e-903d-748bef0805b6",
+          "source": "b",
+          "target": "node_1785495783709",
+          "inscription": "b1",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": 10,
+            "y": 10
+          }
+        },
+        {
+          "id": "17389b48-7778-41f1-bc2d-9563ec1916be",
+          "source": "node_1785495783709",
+          "target": "node_1785495776215",
+          "inscription": "b1",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": 10,
+            "y": 10
+          }
+        },
+        {
+          "id": "1179a361-8d18-4c68-a561-3eeb9a722a69",
+          "source": "b",
+          "target": "node_1785495807075",
+          "inscription": "R1",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": 10,
+            "y": 10
+          }
+        },
+        {
+          "id": "76383637-a39f-425e-a7ac-f7f8540b447b",
+          "source": "node_1785495807075",
+          "target": "node_1785495776215",
+          "inscription": "R1",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": -0.8888254521251131,
+            "y": 9.505053388539768
+          }
+        },
+        {
+          "id": "54a42cf6-7453-41c2-b953-b0270e5ba13d",
+          "source": "node_1785495776215",
+          "target": "c",
+          "inscription": "R1",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": 10,
+            "y": 10
+          }
+        },
+        {
+          "id": "5243f595-e0da-49e1-a7b2-b3b170ee6c0a",
+          "source": "node_1785495776215",
+          "target": "node_1785495678808",
+          "inscription": "b1",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": 10,
+            "y": 10
+          }
+        },
+        {
+          "id": "8490d71b-0de3-40f3-8314-7f3f32cb5f4b",
+          "source": "node_1790803322837",
+          "target": "b",
+          "inscription": "G1",
+          "delay": "",
+          "isBidirectional": false
+        },
+        {
+          "id": "e0609d6f-0abc-444e-9857-ade64cd579ee",
+          "source": "b",
+          "target": "node_1790803324369",
+          "inscription": "G1",
+          "delay": "",
+          "isBidirectional": false
+        }
+      ],
+      "declareConstraints": []
+    }
+  ],
+  "colorSets": [
+    {
+      "name": "red",
+      "definition": "colset red = int;",
+      "id": "37776d51-5f14-48a2-9298-1f4cfe0bb888",
+      "type": "basic",
+      "color": "#ff0000",
+      "timed": false
+    },
+    {
+      "name": "blue",
+      "definition": "colset blue = int;",
+      "id": "9897893b-eb2d-416c-8e82-ef3072919b3c",
+      "type": "basic",
+      "color": "#0034ff",
+      "timed": false
+    },
+    {
+      "name": "green",
+      "definition": "colset green = int;",
+      "id": "2164c02b-7d22-432a-bfb5-fc290e73c2f9",
+      "type": "basic",
+      "color": "#286b19",
+      "timed": false
+    },
+    {
+      "name": "MULT_red",
+      "definition": "colset MULT_red = list red;",
+      "id": "43661b55-a745-40c9-873b-59adc8e21b93",
+      "type": "list",
+      "color": "#c86d6d",
+      "timed": false
+    },
+    {
+      "name": "MULT_blue",
+      "definition": "colset MULT_blue = list blue;",
+      "id": "edaff52f-aae4-4275-b54a-302e9bd62d77",
+      "type": "list",
+      "color": "#7281c6",
+      "timed": false
+    },
+    {
+      "name": "MULT_green",
+      "definition": "colset MULT_green = list green;",
+      "id": "669bf6d4-39c2-40dc-8a7d-7c51669c2410",
+      "type": "list",
+      "color": "#88d191",
+      "timed": false
+    },
+    {
+      "name": "PROD_redXblue",
+      "definition": "colset PROD_redXblue = product red * blue;",
+      "id": "PROD_redXblue",
+      "type": "product",
+      "color": "#4589ff",
+      "timed": false
+    },
+    {
+      "name": "MULT_PROD_redXblue",
+      "definition": "colset MULT_PROD_redXblue = list PROD_redXblue;",
+      "id": "MULT_PROD_redXblue",
+      "type": "list",
+      "color": "#d12771",
+      "timed": false
+    }
+  ],
+  "variables": [
+    {
+      "name": "r1",
+      "id": "ada26663-b2dd-439c-8afd-bb27eb0f14d7",
+      "colorSet": "red"
+    },
+    {
+      "name": "b1",
+      "id": "8a4c500f-9b5b-4ebc-b3f6-090a2e10cf5f",
+      "colorSet": "blue"
+    },
+    {
+      "name": "g1",
+      "id": "facb301a-3f16-47e9-b3af-814cf4b29b3e",
+      "colorSet": "green"
+    },
+    {
+      "name": "R1",
+      "id": "f488a706-25fc-45c9-8b91-dffebf1f4141",
+      "colorSet": "MULT_red"
+    },
+    {
+      "name": "B1",
+      "id": "d9eb2a63-f49a-4dec-ae13-9d4ada6657c3",
+      "colorSet": "MULT_blue"
+    },
+    {
+      "name": "G1",
+      "id": "e13c4371-5a99-445a-b96b-6d64ab765ac7",
+      "colorSet": "MULT_green"
+    },
+    {
+      "name": "var7",
+      "id": "var7",
+      "colorSet": "MULT_PROD_redXblue"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "96e797f3-f6a4-4369-b2a9-34b0af746232",
+      "name": "P_HIGH",
+      "level": 100
+    },
+    {
+      "id": "47edb274-25ba-463b-9c4f-112465ddaff8",
+      "name": "P_NORMAL",
+      "level": 1000
+    },
+    {
+      "id": "ebe1a6cf-768f-4e9a-8d4f-3fe5f534deb8",
+      "name": "P_LOW",
+      "level": 10000
+    }
+  ],
+  "functions": [
+    {
+      "id": "union",
+      "name": "union",
+      "code": "\nfn union(list1, list2) {\n    let result = list1.extract(0,list1.len);\n\n    for item in list2 {\n        if !result.contains(item) {\n            result.push(item);\n        }\n    }\n\n    return result\n}\n            "
+    },
+    {
+      "id": "in1",
+      "name": "in1",
+      "code": "\nfn in1(value, list) {\n    for tuple in list {\n        if tuple[0] == value {\n            return true;\n        }\n    }\n    false\n}\n            "
+    },
+    {
+      "id": "in2",
+      "name": "in2",
+      "code": "\nfn in2(value, list) {\n    for tuple in list {\n        if tuple[1] == value {\n            return true;\n        }\n    }\n    false\n}\n            "
+    },
+    {
+      "id": "remove1",
+      "name": "remove1",
+      "code": "\nfn remove1(values, list) {\n    let result = [];\n    for tuple in list {\n        if tuple[0] !in values {\n            result.push(tuple);\n        }\n    }\n    result\n}\n            "
+    },
+    {
+      "id": "remove2",
+      "name": "remove2",
+      "code": "\nfn remove2(values, list) {\n    let result = [];\n    for tuple in list {\n        if tuple[1] !in values {\n            result.push(tuple);\n        }\n    }\n    result\n}\n            "
+    },
+    {
+      "id": "getPairs",
+      "name": "getPairs",
+      "code": "\nfn getPairs(list1, list2) {\n    let result = [];\n\n    for item1 in list1 {\n        for item2 in list2 {\n            result.push([item1, item2]);\n        }\n    }\n\n    result\n}\n            "
+    },
+    {
+      "id": "exists1",
+      "name": "exists1",
+      "code": "\nfn exists1(list1, list_tuples) {\n    for x in list1 {\n        for tuple in list_tuples {\n            if tuple[0] == x {\n                return true;\n            }\n        }\n    }\n\n    false\n}\n                "
+    },
+    {
+      "id": "exists2",
+      "name": "exists2",
+      "code": "\nfn exists2(list1, list_tuples) {\n    for x in list1 {\n        for tuple in list_tuples {\n            if tuple[1] == x {\n                return true;\n            }\n        }\n    }\n\n    false\n}\n                "
+    },
+    {
+      "id": "allPairExists",
+      "name": "allPairExists",
+      "code": "\nfn allPairExists(x_list, y_list, s_tuples) {\n    for x_prime in x_list {\n        for y_prime in y_list {\n            if !s_tuples.contains([x_prime, y_prime]) {\n                return false;\n            }\n        }\n    }\n\n    true\n}\n                "
+    },
+    {
+      "id": "imp",
+      "name": "imp",
+      "code": "\nfn imp(a, b) {\n    !a || b;\n}\n                "
+    }
+  ],
+  "uses": [],
+  "values": [],
+  "fusionSets": [],
+  "simulationSettings": {
+    "stepsPerRun": 50,
+    "animationDelayMs": 500,
+    "simulationEpoch": null,
+    "endTimeMs": null,
+    "keepAwakeWhileRunning": true
+  },
+  "viewSettings": {
+    "showMarkingDisplay": true,
+    "showDeclareLayer": true
+  }
+}

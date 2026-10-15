@@ -1,0 +1,38 @@
+{
+  "narrow_var_arcs": [
+    {
+      "transition": "A",
+      "type": "range",
+      "range": [1,3],
+      "otype": "red"
+    },
+    {
+      "transition": "B",
+      "type": "range",
+      "range": [2,2],
+      "otype": "red"
+    }
+  ],
+  "optional_ot": [
+    {
+      "transition": "A",
+      "otype": "green"
+    },
+    {
+      "transition": "B",
+      "otype": "red"
+    }
+  ],
+  "synchronizations": [
+    {
+      "class_type": "SynchronizationRestriction",
+      "transitions": [
+        "A",
+        "B"
+      ],
+      "sync_type": "SYMETRIC",
+      "type_a": "red",
+      "type_b": "blue"
+    }
+  ]
+}

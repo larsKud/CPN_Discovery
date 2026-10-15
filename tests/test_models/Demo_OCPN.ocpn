@@ -1,0 +1,174 @@
+{
+  "ocpnName": "Demo OCPN",
+  "petriNets": [
+    {
+      "id": "ID6",
+      "name": "Main",
+      "places": [
+        {
+          "id": "a",
+          "name": "start",
+          "colorSet": "INT",
+          "initialMarking": "[1, 5, 5, 10]",
+          "marking": [
+            1,
+            5,
+            5,
+            10
+          ],
+          "position": {
+            "x": 25,
+            "y": -5
+          },
+          "size": {
+            "width": 30,
+            "height": 30
+          },
+          "tokenCountOffset": {
+            "x": 25,
+            "y": -20
+          },
+          "markingOffset": {
+            "x": 40,
+            "y": -25
+          }
+        },
+        {
+          "id": "c",
+          "name": "end place",
+          "colorSet": "INT",
+          "initialMarking": "",
+          "marking": [],
+          "position": {
+            "x": 355,
+            "y": -5
+          },
+          "size": {
+            "width": 50,
+            "height": 30
+          }
+        }
+      ],
+      "transitions": [
+        {
+          "id": "b",
+          "name": "transition",
+          "guard": "var1>4",
+          "time": "",
+          "priority": "",
+          "codeSegment": "",
+          "position": {
+            "x": 175,
+            "y": -5
+          },
+          "size": {
+            "width": 70,
+            "height": 30
+          }
+        }
+      ],
+      "arcs": [
+        {
+          "id": "a->b",
+          "source": "a",
+          "target": "b",
+          "inscription": "var1",
+          "delay": "",
+          "isBidirectional": false
+        },
+        {
+          "id": "b->c",
+          "source": "b",
+          "target": "c",
+          "inscription": "var1",
+          "delay": "",
+          "isBidirectional": false
+        }
+      ]
+    }
+  ],
+  "colorSets": [
+    {
+      "id": "cf5ed114-e9c2-46d5-8757-b002fba507ff",
+      "name": "UNIT",
+      "type": "basic",
+      "definition": "colset UNIT = unit;",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "75c5614c-46ca-4bdc-90a7-94c159ffed84",
+      "name": "BOOL",
+      "type": "basic",
+      "definition": "colset BOOL = bool;",
+      "color": "#10b981"
+    },
+    {
+      "id": "25c5caee-6d3b-4510-93ee-60548e79bf4f",
+      "name": "INT",
+      "type": "basic",
+      "definition": "colset INT = int;",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "108909e5-79be-44fe-9913-352d50d6e185",
+      "name": "INTINF",
+      "type": "basic",
+      "definition": "colset INTINF = intinf;",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "ce16ba65-5a7f-423c-83c1-a061eee5333f",
+      "name": "TIME",
+      "type": "basic",
+      "definition": "colset TIME = time;",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "c0d10e91-e7a7-4838-8dcd-8b5b686b10b7",
+      "name": "REAL",
+      "type": "basic",
+      "definition": "colset REAL = real;",
+      "color": "#ef4444"
+    },
+    {
+      "id": "9500d268-886e-4cee-8933-004922375896",
+      "name": "STRING",
+      "type": "basic",
+      "definition": "colset STRING = string;",
+      "color": "#f59e0b"
+    }
+  ],
+  "variables": [
+    {
+      "id": "bb136ed3-3085-411c-a37c-1f61d5fafcf0",
+      "name": "var1",
+      "colorSet": "INT"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "6e9ed4ea-bedf-4423-934a-4fe1e21173a0",
+      "name": "P_HIGH",
+      "level": 100
+    },
+    {
+      "id": "64b0e9d1-631f-4ce7-b3ca-577758c40b27",
+      "name": "P_NORMAL",
+      "level": 1000
+    },
+    {
+      "id": "2a6b1d62-6df8-4f3c-ac1a-2b879869d30e",
+      "name": "P_LOW",
+      "level": 10000
+    }
+  ],
+  "functions": [],
+  "uses": [],
+  "values": [],
+  "fusionSets": [],
+  "simulationSettings": {
+    "stepsPerRun": 50,
+    "animationDelayMs": 500,
+    "simulationEpoch": null
+  }
+}

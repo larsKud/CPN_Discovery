@@ -1,0 +1,45 @@
+,a1,a2,t1,t2,sync_ratio,sync_bool,Reason
+0,place_order,place_order,customers,customers,0.0,0,non repeating
+1,place_order,place_order,customers,employees,1.0,1,random sync
+2,place_order,place_order,customers,items,0.0,0,non repeating
+3,place_order,place_order,customers,orders,0.0,0,non repeating
+4,place_order,place_order,customers,products,,1,random sync
+5,place_order,place_order,employees,customers,,1,random sync
+6,place_order,place_order,employees,employees,0.0,0,non repeating
+7,place_order,place_order,employees,items,0.0,0,non repeating
+8,place_order,place_order,employees,orders,0.0,0,non repeating
+9,place_order,place_order,employees,products,,1,random sync
+10,place_order,place_order,items,customers,0.0,0,non repeating
+11,place_order,place_order,items,employees,0.0,0,non repeating
+12,pack_items,pack_items,items,items,0.0,0,non repeating items
+13,pack_items,place_order,items,items,0.0,0,no pairs
+14,place_order,place_order,items,items,0.0,0,non repeating
+15,pack_items,pack_items,items,orders,0.0,0,non repeating items
+16,pack_items,place_order,items,orders,1.0,1,
+17,place_order,place_order,items,orders,0.0,0,non repeating
+18,pack_items,pack_items,items,products,0.0,0,non repeating items
+19,pack_items,place_order,items,products,1.0,1,
+20,place_order,place_order,items,products,0.0,0,non repeating
+21,place_order,place_order,orders,customers,0.0,0,non repeating
+22,place_order,place_order,orders,employees,0.0,0,non repeating
+23,pack_items,pack_items,orders,items,0.0,0,non repeating items
+24,pack_items,place_order,orders,items,1.0,1,
+25,place_order,place_order,orders,items,0.0,0,non repeating
+26,pack_items,pack_items,orders,orders,0.0,0,no pairs
+27,pack_items,place_order,orders,orders,0.0,0,no pairs
+28,place_order,place_order,orders,orders,0.0,0,no pairs / non repeating
+29,pack_items,pack_items,orders,products,,0,random sync possible
+30,pack_items,place_order,orders,products,,1,not 100!
+31,place_order,place_order,orders,products,0,0,non repeating order
+32,place_order,place_order,products,customers,,0,random sync
+33,place_order,place_order,products,employees,,0,random sync
+34,pack_items,pack_items,products,items,0.0,0,non repeating items
+35,pack_items,place_order,products,items,,0, random sync (not significant enough)
+36,place_order,place_order,products,items,0.0,0,non repeating items
+37,pack_items,pack_items,products,orders,,0,random sync
+38,pack_items,place_order,products,orders,,0, random sync (not significant enough)
+39,place_order,place_order,products,orders,0.0,0,non repeating order
+40,pack_items,pack_items,products,products,0.0,0,no pairs
+41,pack_items,place_order,products,products,0.0,0,no pairs
+42,place_order,place_order,products,products,,0,random sync
+,,,,,,,

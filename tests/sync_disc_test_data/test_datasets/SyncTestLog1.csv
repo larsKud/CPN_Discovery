@@ -1,0 +1,26 @@
+id,activity,timestamp,ot:orders,ot:items,ot:packages,ot:customers,ot:products,ot:employees
+event_1,place_order,04/04/2023 10:30:00,o1,i1/i2/i3,,c1,pr1/pr2,e5
+event_2,pack_items,04/04/2023 13:08:00,o1,i1,p1,,pr1,e7
+event_3,pack_items,04/04/2023 13:42:00,o1,i2,p1,,pr1,e10
+event_4,pack_items,04/04/2023 13:54:00,o1,i3,p1,,pr2,e9
+event_5,send_package,04/04/2023 14:09:00,o1,,p1,c1,pr1/pr2,e8
+event_6,recive_package,04/04/2023 14:12:00,,,p1,c1,,e8
+event_7,place_order,04/04/2023 14:34:00,o2,i4,,c2,pr3,e3
+event_8,pack_items,04/04/2023 14:57:00,o2,i4,p2,,pr3,e10
+event_9,send_package,04/04/2023 15:21:00,o2,,p2,c2,pr3,e8
+event_10,recive_package,04/04/2023 15:31:00,,,p2,c2,,e8
+event_11,place_order,04/04/2023 18:51:00,o3,i5/i6/i7,,c2,pr1/pr4/pr3,e3
+event_12,pack_items,04/05/2023 04:24:00,o3,i6,p3,,pr4,e10
+event_13,pack_items,04/05/2023 07:43:00,o3,i7,p3,,pr3,e4
+event_14,pack_items,04/05/2023 08:37:00,o3,i5,p3,,pr1,e10
+event_15,send_package,04/05/2023 09:03:00,o3,,p3,c2,pr1/pr4/pr3,e3
+event_16,recive_package,04/05/2023 09:10:00,,,p3,c2,,e3
+event_17,place_order,04/05/2023 09:20:00,o4,i8/i9,,c3,pr4/pr1,e1
+event_18,pack_items,04/05/2023 09:26:00,o4,i8,p4,,pr4,e10
+event_19,pack_items,04/05/2023 09:27:00,o4,i9,p4,,pr1,e10
+event_20,send_package,04/05/2023 09:47:00,o4,,p4,c3,pr4/pr1,e3
+event_21,recive_package,04/05/2023 10:35:00,,,p4,c3,,e3
+event_22,place_order,04/05/2023 11:05:00,o5,i10,,c5,pr7,e9
+event_23,pack_items,04/05/2023 11:15:00,o5,i19,p5,,pr7,e6
+event_24,send_package,04/05/2023 11:24:00,o5,,p5,c5,pr7,e7
+event_25,recive_package,04/05/2023 12:08:00,,,p5,c5,,e7

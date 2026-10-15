@@ -1,0 +1,590 @@
+a1,a2,t1,t2,sync_ratio,sync_bool,num_phi_true,total_candidate_pairs,timediff
+place order,place order,customers,products,0.0,0,0,133555,54.34618950100412
+confirm order,reorder item,employees,items,0.0,0,0,0,3.220993060996989
+package delivered,package delivered,employees,packages,0.0,0,0,105848,9.985171426000306
+create package,reorder item,employees,items,0.0,0,0,249510,11.080921300999762
+confirm order,confirm order,employees,products,0.0,0,0,422060,76.13633358600055
+package delivered,package delivered,employees,items,0.0,0,0,105848,10.079782320004597
+create package,create package,employees,items,0.0,0,0,91125,10.275923414999852
+confirm order,confirm order,customers,customers,0.0,0,0,133555,5.997206053005357
+failed delivery,send package,employees,packages,0.00039805615908977823,0,24,60293,8.071848673003842
+create package,failed delivery,employees,items,0.0,0,0,0,2.542620631000318
+create package,send package,employees,packages,0.0,0,0,163724,9.853713641001377
+item out of stock,send package,employees,employees,0.0,0,0,225086,21.633209110994358
+reorder item,send package,employees,items,0.0,0,0,224222,9.894246595998993
+item out of stock,item out of stock,employees,employees,0.0,0,0,170267,24.8970314649996
+place order,place order,customers,customers,0.0,0,0,133555,5.6080483269979595
+item out of stock,package delivered,employees,employees,0.0,0,0,0,2.9759128440055065
+package delivered,reorder item,employees,items,0.0,0,0,0,2.9020696910010884
+place order,place order,customers,orders,0.0,0,0,133555,2.5741744469996775
+failed delivery,package delivered,employees,items,0.0,0,0,58658,8.659190127997135
+package delivered,send package,employees,packages,0.00035663011969969913,0,78,218714,10.889817169001617
+failed delivery,failed delivery,employees,items,0.0,0,0,8062,8.170334009002545
+confirm order,place order,customers,customers,0.0,0,0,269110,6.304217220997089
+failed delivery,package delivered,employees,packages,0.0,0,0,58658,8.619257974998618
+create package,send package,employees,items,0.0,0,0,163724,10.102862692001509
+package delivered,package delivered,employees,employees,0.0,0,0,105848,20.57060881600046
+failed delivery,reorder item,employees,employees,0.0,0,0,0,2.5859085019983468
+confirm order,send package,employees,employees,0.0,0,0,0,3.0926982020027936
+confirm order,confirm order,customers,orders,0.0,0,0,133555,2.57829769700038
+failed delivery,item out of stock,employees,items,0.0,0,0,0,2.5572321959989495
+pick item,reorder item,employees,items,0.0,0,0,1689901,22.28467003699916
+create package,create package,employees,packages,0.0,0,0,91125,10.145050366998476
+confirm order,confirm order,employees,orders,0.0,0,0,422060,14.759808335002162
+create package,failed delivery,employees,packages,0.0,0,0,0,2.577465864997066
+item out of stock,pick item,employees,employees,0.0,0,0,1690016,57.11179080399597
+reorder item,send package,employees,employees,0.0,0,0,224222,21.445148601000255
+item out of stock,reorder item,employees,items,0.0,0,0,340127,12.080959744998836
+reorder item,reorder item,employees,items,0.0,0,0,170074,11.134215632999258
+confirm order,pick item,employees,employees,0.0,0,0,0,6.153554077005538
+send package,send package,employees,items,0.0,0,0,173342,11.559339547995478
+failed delivery,send package,employees,employees,0.0,0,0,60293,16.33029560799332
+confirm order,package delivered,employees,employees,0.0,0,0,0,2.997336839995114
+create package,package delivered,employees,packages,0.0,0,0,0,2.9627202449992183
+send package,send package,employees,packages,0.0,0,0,173342,11.206823036998685
+failed delivery,package delivered,employees,employees,0.0,0,0,58658,17.523084124004527
+item out of stock,reorder item,employees,employees,0.0,0,0,340127,24.625640802005364
+confirm order,item out of stock,employees,employees,0.0,0,0,0,3.1679280280004605
+create package,package delivered,employees,items,0.0,0,0,0,2.7665815639993525
+pick item,send package,employees,employees,0.0,0,0,1114909,42.299405603000196
+pick item,send package,employees,items,0.0,0,0,1114909,17.760610049001116
+pick item,pick item,employees,employees,0.0,0,0,4192417,220.787960155998
+failed delivery,failed delivery,employees,packages,0.0,0,0,8062,7.1395897080001305
+failed delivery,item out of stock,employees,employees,0.0,0,0,0,2.6935801110012108
+confirm order,confirm order,employees,employees,0.0,0,0,422060,38.51798267900449
+create package,pick item,employees,employees,0.0,0,0,1233292,45.3152435400043
+confirm order,pick item,employees,items,0.0,0,0,0,6.097322269997676
+create package,item out of stock,employees,employees,0.0,0,0,247808,22.456299956000294
+failed delivery,pick item,employees,employees,0.0,0,0,0,3.0593102229977376
+place order,place order,customers,items,0.0,0,0,133555,2.7425383949957904
+package delivered,pick item,employees,employees,0.0,0,0,0,4.626006391001283
+send package,send package,employees,employees,0.0,0,0,173342,23.761785812996095
+package delivered,reorder item,employees,employees,0.0,0,0,0,2.9495910620025825
+confirm order,create package,employees,employees,0.0,0,0,0,2.959989097995276
+confirm order,confirm order,customers,products,0.0,0,0,133555,53.29666078300215
+create package,create package,employees,employees,0.0,0,0,91125,19.967349715996534
+confirm order,package delivered,employees,items,0.0,0,0,0,2.9841947149980115
+confirm order,confirm order,customers,items,0.0,0,0,133555,2.728678569001204
+pick item,pick item,employees,items,0.0,0,0,4192417,62.38102962600533
+confirm order,create package,employees,products,0.0,0,0,0,2.892977518000407
+pick item,reorder item,employees,employees,0.0,0,0,1689901,58.21400770799664
+package delivered,send package,employees,employees,0.0,0,0,218714,20.956629262997012
+confirm order,confirm order,employees,customers,0.0,0,0,422060,17.02842636499554
+package delivered,send package,employees,items,0.00035663011969969913,0,78,218714,10.822272138000699
+confirm order,place order,customers,products,0.0,0,0,269110,55.43100137399597
+failed delivery,send package,employees,items,0.00039805615908977823,0,24,60293,8.387725150998449
+confirm order,failed delivery,employees,items,0.0,0,0,0,2.5930918249941897
+confirm order,confirm order,employees,items,0.0,0,0,422060,14.70915452799818
+package delivered,pick item,employees,items,0.0,0,0,0,4.649964099000499
+failed delivery,reorder item,employees,items,0.0,0,0,0,2.5419832240004325
+confirm order,confirm order,customers,employees,0.0,0,0,133555,12.346624275000067
+item out of stock,send package,employees,items,0.0,0,0,225086,10.55545488599455
+failed delivery,pick item,employees,items,0.0,0,0,0,2.990200852000271
+confirm order,reorder item,employees,employees,0.0,0,0,0,3.1071974730002694
+create package,failed delivery,employees,employees,0.0,0,0,0,2.4784355650044745
+create package,send package,employees,employees,0.0,0,0,163724,19.638913089998823
+reorder item,reorder item,employees,employees,0.0,0,0,170074,23.98306715599756
+confirm order,item out of stock,employees,items,0.0,0,0,0,3.3224338440049905
+confirm order,failed delivery,employees,products,0.0,0,0,0,2.7215887630009092
+item out of stock,item out of stock,employees,items,0.0,0,0,170267,12.378354262997163
+item out of stock,pick item,employees,items,0.0,0,0,1690016,21.694288124002924
+confirm order,create package,employees,items,0.0,0,0,0,2.9837090709988843
+confirm order,send package,employees,items,0.0,0,0,0,2.9638341359968763
+confirm order,failed delivery,employees,employees,0.0,0,0,0,2.614681478997227
+create package,pick item,employees,items,0.0,0,0,1233292,18.335263267996197
+confirm order,place order,customers,items,0.0,0,0,269110,2.916028464002011
+create package,item out of stock,employees,items,0.0,0,0,247808,10.861731201999646
+item out of stock,package delivered,employees,items,0.0,0,0,0,3.0576236580018303
+confirm order,place order,customers,orders,0.0,0,0,269110,2.660195668002416
+failed delivery,failed delivery,employees,employees,0.0,0,0,8062,14.63872238699696
+create package,reorder item,employees,employees,0.0,0,0,249510,22.41165039799671
+create package,package delivered,employees,employees,0.0,0,0,0,2.791108992001682
+create package,pick item,items,employees,0.0,0,0,7659,20.023038701998303
+confirm order,confirm order,items,employees,0.0,0,0,0,3.3469664410004043
+failed delivery,send package,items,employees,0.07717041800643087,0,24,311,5.997009479004191
+failed delivery,item out of stock,employees,products,0.0,0,0,0,2.611556752999604
+confirm order,pay order,items,items,0.0,0,0,2000,3.9217052910025814
+create package,create package,items,items,0.0,0,0,0,2.1115140580004663
+confirm order,confirm order,items,items,0.0,0,0,0,3.447015880003164
+create package,package delivered,employees,products,0.0,0,0,0,2.764476096002909
+package delivered,pick item,employees,products,0.0,0,0,0,4.649077025002043
+confirm order,confirm order,items,customers,0.0,0,0,0,3.369722338997235
+failed delivery,package delivered,employees,products,0.0,0,0,58658,54.44092377299967
+create package,send package,items,items,0.0,0,0,1128,2.3228113549994305
+create package,place order,items,items,0.0,0,0,4264,3.8783240349948755
+create package,send package,employees,products,0.0,0,0,163724,60.70732482000312
+failed delivery,item out of stock,items,items,0.0,0,0,413,1.1433236749944626
+failed delivery,reorder item,employees,products,0.0,0,0,0,2.5352584499996738
+failed delivery,failed delivery,items,employees,0.0,0,0,150,5.556322163000004
+confirm order,create package,items,items,0.0,0,0,4264,2.5099317650019657
+item out of stock,pick item,employees,products,0.0,0,0,1690016,79.89849503699952
+confirm order,send package,items,items,0.0,0,0,4264,2.366713096998865
+create package,item out of stock,employees,products,0.0,0,0,247808,60.49738946100115
+confirm order,reorder item,employees,products,0.0,0,0,0,3.2204721359958057
+item out of stock,item out of stock,items,employees,0.0,0,0,0,0.6659828359988751
+confirm order,send package,items,employees,0.0,0,0,4264,8.512305224998272
+package delivered,send package,employees,products,0.0074800881516501,0,1636,218714,60.3633563809999
+create package,item out of stock,items,employees,0.0,0,0,1544,8.831968548001896
+failed delivery,pay order,items,items,0.0,0,0,1117,1.3441885729989735
+package delivered,reorder item,items,employees,0.0,0,0,1544,8.537180693994742
+pick item,pick item,items,employees,0.0,0,0,0,12.749935740001092
+send package,send package,employees,products,0.0006576594247210717,0,114,173342,60.338937169995916
+confirm order,place order,items,customers,0.0,0,0,2000,3.7130511669965927
+reorder item,send package,employees,products,0.0,0,0,224222,55.24394429200038
+confirm order,create package,items,employees,0.0,0,0,4264,8.188834414002486
+pick item,send package,items,employees,0.0,0,0,7659,8.642124883997894
+confirm order,item out of stock,items,items,0.0,0,0,1544,3.1319746970038977
+create package,reorder item,items,items,0.0,0,0,1544,3.0311207859995193
+create package,send package,items,employees,0.0,0,0,1128,7.653938515002665
+item out of stock,package delivered,employees,products,0.0,0,0,0,2.9397491599956993
+package delivered,send package,items,employees,0.06914893617021277,0,78,1128,7.845509361999575
+failed delivery,pick item,employees,products,0.0,0,0,0,3.093977671000175
+confirm order,package delivered,items,employees,0.0,0,0,4264,8.207273745996645
+failed delivery,send package,employees,products,0.007662581062478232,0,462,60293,54.178704311998445
+failed delivery,failed delivery,items,items,0.0,0,0,150,0.5860993609967409
+package delivered,package delivered,items,employees,0.0,0,0,0,2.0456805440044263
+package delivered,package delivered,employees,products,0.0,0,0,105848,60.70241911899939
+item out of stock,send package,employees,products,0.0,0,0,225086,60.728962027002126
+item out of stock,item out of stock,employees,products,0.0,0,0,170267,64.83915553800034
+confirm order,send package,employees,products,0.0,0,0,0,2.8822594239973114
+confirm order,failed delivery,items,employees,0.0,0,0,1117,6.544932146003703
+failed delivery,pick item,items,employees,0.0,0,0,2020,9.348422217997722
+pick item,pick item,employees,products,0.0,0,0,4192417,136.4067345690055
+create package,package delivered,items,items,0.0,0,0,1128,2.4790285589988343
+failed delivery,reorder item,items,employees,0.0,0,0,413,6.422427183002583
+send package,send package,items,employees,0.0,0,0,0,1.986148071999196
+failed delivery,payment reminder,items,items,0.0,0,0,325,0.7022786979941884
+item out of stock,pick item,items,employees,0.0,0,0,1544,9.073060909999185
+create package,package delivered,items,employees,0.0,0,0,1128,7.953185553000367
+create package,reorder item,items,employees,0.0,0,0,1544,8.914897752001707
+confirm order,payment reminder,items,items,0.0,0,0,566,1.3957665089983493
+confirm order,pick item,items,items,0.0,0,0,7659,13.359211007998965
+reorder item,send package,items,employees,0.0,0,0,1544,6.436543969997729
+pick item,reorder item,employees,products,0.0,0,0,1689901,79.7396984589941
+create package,failed delivery,items,items,0.0,0,0,311,0.9734313340013614
+create package,reorder item,employees,products,0.0,0,0,249510,62.455740449004225
+place order,place order,items,customers,0.0,0,0,0,3.3461018969974248
+create package,create package,employees,products,0.0,0,0,91125,59.50127951500326
+item out of stock,send package,items,employees,0.0,0,0,1544,6.699149956999463
+failed delivery,pick item,items,items,0.0,0,0,2020,3.791379112000868
+failed delivery,package delivered,items,items,0.0,0,0,311,0.9563224189987523
+item out of stock,reorder item,employees,products,0.0,0,0,340127,61.42965179300518
+create package,payment reminder,items,items,0.0,0,0,1241,1.4172149029982393
+create package,failed delivery,employees,products,0.0,0,0,0,2.5666323999976157
+confirm order,reorder item,items,items,0.0,0,0,1544,3.0223247110043303
+pick item,reorder item,items,employees,0.0,0,0,1544,8.696356432999892
+confirm order,pick item,employees,products,0.0,0,0,0,6.0938733969960595
+create package,pick item,items,items,0.0,0,0,7659,13.441180689995235
+create package,failed delivery,items,employees,0.0,0,0,311,5.745348433003528
+confirm order,item out of stock,employees,products,0.0,0,0,0,3.1658688590032398
+confirm order,failed delivery,items,items,0.0,0,0,1117,1.0250418510040618
+create package,create package,items,employees,0.0,0,0,0,1.9867069610045291
+failed delivery,item out of stock,items,employees,0.0,0,0,413,6.513972023996757
+pick item,send package,employees,products,0.0,0,0,1114909,76.08602601500024
+create package,pick item,employees,products,0.0,0,0,1233292,76.37154855399422
+package delivered,pick item,items,employees,0.0,0,0,7659,19.45434086399473
+item out of stock,reorder item,items,employees,0.0,0,0,1544,6.821334299005684
+create package,item out of stock,items,items,0.0,0,0,1544,3.1304891780018806
+confirm order,package delivered,employees,products,0.0,0,0,0,2.9757544770036475
+confirm order,package delivered,items,items,0.0,0,0,4264,2.449738471004821
+failed delivery,place order,items,items,0.0,0,0,1117,1.3722414479998406
+failed delivery,failed delivery,employees,products,0.0,0,0,8062,49.443744416006666
+reorder item,reorder item,employees,products,0.0,0,0,170074,59.80459025199525
+confirm order,item out of stock,items,employees,0.0,0,0,1544,9.055746779995388
+reorder item,reorder item,items,employees,0.0,0,0,0,0.6499195939977653
+confirm order,place order,items,items,0.0,0,0,2000,3.8268041979972622
+failed delivery,package delivered,items,employees,0.0,0,0,311,5.8112966010012315
+confirm order,reorder item,items,employees,0.0,0,0,1544,8.795291069000086
+confirm order,pick item,items,employees,0.0,0,0,7659,19.670992604005733
+package delivered,reorder item,employees,products,0.0,0,0,0,2.8913914110016776
+item out of stock,package delivered,items,employees,0.0,0,0,1544,6.721503180000582
+create package,pay order,items,items,0.0,0,0,4264,3.898517030997027
+pay order,payment reminder,items,items,0.0,0,0,566,1.4618926729963277
+item out of stock,send package,items,products,0.0,0,0,1544,35.70128304100217
+create package,create package,items,packages,0.0,0,0,0,2.000410152002587
+payment reminder,place order,items,orders,0.0,0,0,566,1.2038920939958189
+item out of stock,place order,items,items,0.0,0,0,1544,1.1546311769998283
+package delivered,pay order,items,products,0.0,0,0,4264,39.94797809499869
+item out of stock,pay order,items,items,0.0,0,0,1544,1.1636856979966979
+payment reminder,send package,items,items,0.0,0,0,1241,0.9894322280015331
+pay order,pay order,items,orders,0.0,0,0,0,3.581168245000299
+package delivered,reorder item,items,items,0.0,0,0,1544,3.007499683997594
+confirm order,create package,items,products,0.0,0,0,4264,40.91167723799299
+failed delivery,pay order,items,products,0.0,0,0,1117,35.24029896400316
+reorder item,reorder item,items,items,0.0,0,0,0,0.7344283950005774
+item out of stock,payment reminder,items,items,0.0,0,0,463,0.6579938960057916
+create package,pick item,items,products,0.0,0,0,7659,53.0389990199983
+item out of stock,pick item,items,products,0.0,0,0,1544,37.63827670700266
+item out of stock,place order,items,products,0.0,0,0,1544,35.46423841900105
+item out of stock,reorder item,items,products,0.0,0,0,1544,36.169197790994076
+payment reminder,pick item,items,items,0.0,0,0,2214,4.272543560000486
+create package,reorder item,items,products,0.0,0,0,1544,39.24486650299514
+failed delivery,package delivered,items,packages,0.0,0,0,311,0.7182064350054134
+confirm order,failed delivery,items,products,0.0,0,0,1117,35.39571317500668
+pick item,reorder item,items,items,0.0,0,0,1544,3.020646379001846
+package delivered,place order,items,items,0.0,0,0,4264,3.898606117996678
+create package,place order,items,products,0.0,0,0,4264,41.31589099499979
+item out of stock,reorder item,items,items,0.0,0,0,1544,0.9850982499992824
+send package,send package,items,packages,0.0,0,0,0,1.9299796869963757
+failed delivery,reorder item,items,products,0.0,0,0,413,33.301241203000245
+package delivered,send package,items,packages,0.0,0,0,1128,2.080682286003139
+pick item,send package,items,items,0.0,0,0,7659,2.3725365819991566
+confirm order,confirm order,items,orders,0.0,0,0,0,3.3772551830043085
+create package,pay order,items,products,0.0,0,0,4264,41.03288270899793
+confirm order,send package,items,products,0.0,0,0,4264,38.454074305001996
+confirm order,place order,items,orders,0.0,0,0,2000,3.5032547890004935
+package delivered,pay order,items,items,0.0,0,0,4264,3.9249651019999874
+package delivered,payment reminder,items,items,0.0,0,0,1241,1.4298844919976545
+pick item,pick item,items,items,0.0,0,0,0,12.808726449002279
+pay order,payment reminder,items,orders,0.0,0,0,566,1.1518268709987751
+confirm order,confirm order,items,products,0.0,0,0,0,3.3896615780031425
+confirm order,place order,items,products,0.0,0,0,2000,39.90003060500021
+payment reminder,payment reminder,items,items,0.0,0,0,150,0.7162783439998748
+failed delivery,payment reminder,items,products,0.0,0,0,325,31.682890593001503
+package delivered,package delivered,items,products,0.0,0,0,0,2.048551806001342
+reorder item,send package,items,items,0.0,0,0,1544,0.8386984900062089
+create package,package delivered,items,products,0.0,0,0,1128,36.683395567000844
+create package,item out of stock,items,products,0.0,0,0,1544,38.88909704500111
+place order,reorder item,items,items,0.0,0,0,1544,3.0259028389991727
+create package,failed delivery,items,products,0.0,0,0,311,31.150267160999647
+failed delivery,send package,items,packages,0.0,0,0,311,0.697950891997607
+pay order,pay order,items,items,0.0,0,0,0,3.567855588000384
+pick item,place order,items,items,0.0,0,0,7659,3.864205164994928
+item out of stock,item out of stock,items,products,0.0,0,0,0,0.7090942259965232
+failed delivery,place order,items,products,0.0,0,0,1117,35.041095956999925
+place order,send package,items,items,0.0,0,0,4264,2.4186021979985526
+item out of stock,send package,items,items,0.0,0,0,1544,0.8477400560004753
+item out of stock,pay order,items,products,0.0,0,0,1544,36.49787111000478
+place order,place order,items,items,0.0,0,0,0,3.5955103739979677
+package delivered,pick item,items,products,0.0,0,0,7659,52.89621711699874
+item out of stock,pick item,items,items,0.0,0,0,1544,3.088637644003029
+confirm order,item out of stock,items,products,0.0,0,0,1544,38.973621954995906
+failed delivery,send package,items,items,0.0,0,0,311,0.9334468660017592
+pay order,place order,items,orders,0.0,0,0,2000,3.578701091995754
+package delivered,pick item,items,items,0.0,0,0,7659,13.705248252001184
+confirm order,pick item,items,products,0.0,0,0,7659,53.09171909100405
+pay order,send package,items,items,0.0,0,0,4264,2.337815077000414
+failed delivery,failed delivery,items,packages,0.0,0,0,150,0.3459561619965825
+pay order,place order,items,items,0.0,0,0,2000,3.756312899000477
+confirm order,pay order,items,products,0.0,0,0,2000,38.879772567001055
+failed delivery,package delivered,items,products,0.0,0,0,311,31.114087148002
+failed delivery,failed delivery,items,products,0.0,0,0,150,31.37006501900032
+confirm order,pay order,items,orders,0.0,0,0,2000,3.6140327230023104
+pay order,pick item,items,items,0.0,0,0,7659,13.30277373699937
+payment reminder,payment reminder,items,orders,0.0,0,0,150,0.4991183500023908
+create package,payment reminder,items,products,0.0,0,0,1241,35.76367542600201
+package delivered,payment reminder,items,products,0.0,0,0,1241,35.799384493002435
+payment reminder,place order,items,items,0.0,0,0,566,1.4311078190003172
+failed delivery,item out of stock,items,products,0.0,0,0,413,33.40958679000323
+item out of stock,package delivered,items,products,0.0,0,0,1544,36.10564781400171
+package delivered,package delivered,items,items,0.0,0,0,0,2.0988746649964014
+confirm order,payment reminder,items,orders,0.0,0,0,566,1.1709475739990012
+send package,send package,items,items,0.0,0,0,0,2.031804790000024
+create package,create package,items,products,0.0,0,0,0,2.016480316000525
+item out of stock,payment reminder,items,products,0.0,0,0,463,31.61625703699974
+package delivered,send package,items,items,0.0,0,0,1128,2.282923769002082
+failed delivery,pick item,items,products,0.0,0,0,2020,39.38450059000024
+create package,package delivered,items,packages,0.0,0,0,1128,2.126860714000941
+package delivered,package delivered,items,packages,0.0,0,0,0,2.0220444240039797
+create package,send package,items,products,0.0,0,0,1128,35.50210390799475
+confirm order,package delivered,items,products,0.0,0,0,4264,37.87529088500014
+place order,place order,items,orders,0.0,0,0,0,3.4724730210000416
+pay order,reorder item,items,items,0.0,0,0,1544,3.0122971320015495
+item out of stock,package delivered,items,items,0.0,0,0,1544,0.882648243001313
+create package,failed delivery,items,packages,0.0,0,0,311,0.7431970389952767
+failed delivery,send package,items,products,0.0,0,0,311,31.182387341999856
+failed delivery,reorder item,items,items,0.0,0,0,413,1.1376366969998344
+confirm order,reorder item,items,products,0.0,0,0,1544,36.61407551400043
+confirm order,payment reminder,items,products,0.0,0,0,566,34.04553055300494
+create package,send package,items,packages,0.0,0,0,1128,2.0496167360033724
+item out of stock,item out of stock,items,items,0.0,0,0,0,0.7472401310005807
+payment reminder,reorder item,items,items,0.0,0,0,463,1.1787806320062373
+place order,reorder item,items,products,0.0,0,0,1544,37.88355579900235
+pay order,pick item,items,products,0.0,0,0,7659,53.29551720699965
+pay order,payment reminder,orders,orders,0.0,0,0,566,0.2808031140011735
+confirm order,confirm order,orders,orders,0.0,0,0,0,0.8345996600037324
+place order,place order,orders,customers,0.0,0,0,0,0.8400432710041059
+pay order,payment reminder,orders,products,0.0,0,0,566,31.859420834000048
+create package,failed delivery,packages,packages,0.0,0,0,311,0.10320402199431555
+payment reminder,payment reminder,items,products,0.0,0,0,150,32.86715325299883
+confirm order,confirm order,products,customers,0.0,0,0,932041,79.84446702499554
+pay order,pay order,orders,products,0.0,0,0,0,0.8377767759957351
+pay order,pay order,orders,items,0.0,0,0,0,0.8655452879975201
+pick item,place order,items,products,0.0,0,0,7659,40.81290861699381
+confirm order,pay order,orders,orders,0.0,0,0,2000,0.8607167939990177
+place order,place order,orders,items,0.0,0,0,0,0.8543117939989315
+create package,package delivered,packages,products,0.0,0,0,1128,33.837919146004424
+failed delivery,send package,packages,items,0.0,0,0,311,0.2675680350002949
+payment reminder,payment reminder,orders,products,0.0,0,0,150,30.455267774996173
+create package,send package,packages,items,0.0,0,0,1128,0.5232136729973718
+pay order,payment reminder,items,products,0.0,0,0,566,32.24493962600536
+pick item,send package,items,products,0.0,0,0,7659,39.88175316699926
+create package,create package,packages,employees,0.0,0,0,0,0.3042051869997522
+payment reminder,pick item,items,products,0.0,0,0,2214,38.38438908799435
+payment reminder,place order,items,products,0.0,0,0,566,32.43840366299992
+failed delivery,failed delivery,packages,employees,0.0,0,0,150,5.150819601993135
+create package,send package,packages,packages,0.0,0,0,1128,0.2960778510023374
+create package,failed delivery,packages,employees,0.0,0,0,311,5.153096075999201
+failed delivery,failed delivery,packages,products,0.0,0,0,150,29.747693994002475
+send package,send package,packages,employees,0.0,0,0,0,0.2979466069955379
+send package,send package,items,products,0.0,0,0,0,1.9582833009990281
+pay order,reorder item,items,products,0.0,0,0,1544,36.34216788000049
+confirm order,place order,orders,customers,0.0,0,0,2000,1.118761452002218
+create package,create package,packages,items,0.0,0,0,0,0.30797244899440557
+failed delivery,send package,packages,employees,0.07717041800643087,0,24,311,5.2982698760024505
+place order,place order,items,products,0.0,0,0,0,3.4839416710019577
+pay order,place order,orders,items,0.0,0,0,2000,1.1112831339996774
+failed delivery,failed delivery,packages,items,0.0,0,0,150,0.22343219200411113
+package delivered,package delivered,packages,packages,0.0,0,0,0,0.3073983619979117
+confirm order,payment reminder,orders,orders,0.0,0,0,566,0.28070757599925855
+failed delivery,package delivered,packages,packages,0.0,0,0,311,0.10061594400031026
+package delivered,place order,items,products,0.0,0,0,4264,40.936227420999785
+failed delivery,send package,packages,products,0.0,0,0,311,30.728585432996624
+create package,create package,packages,products,0.0,0,0,0,0.30255267399479635
+confirm order,confirm order,orders,items,0.0,0,0,0,0.876339957001619
+package delivered,package delivered,packages,products,0.0,0,0,0,0.30739946399990004
+reorder item,send package,items,products,0.0,0,0,1544,35.881521181996504
+confirm order,confirm order,orders,employees,0.0,0,0,0,0.8470799290007562
+pay order,send package,items,products,0.0,0,0,4264,39.1172775130035
+create package,failed delivery,packages,products,0.0,0,0,311,30.14096050900116
+confirm order,payment reminder,orders,products,0.0,0,0,566,33.45673392099707
+failed delivery,failed delivery,packages,packages,0.0,0,0,150,0.048244072997476906
+package delivered,send package,packages,products,0.0,0,0,1128,33.6777647409981
+payment reminder,place order,orders,products,0.0,0,0,566,31.936255808999704
+package delivered,send package,packages,items,0.0,0,0,1128,0.49372346999734873
+confirm order,confirm order,orders,products,0.0,0,0,0,0.8591391410009237
+confirm order,pay order,orders,items,0.0,0,0,2000,1.057876874001522
+confirm order,place order,orders,orders,0.0,0,0,2000,0.8983837080013473
+confirm order,pay order,orders,products,0.0,0,0,2000,37.12280727400503
+confirm order,confirm order,orders,customers,0.0,0,0,0,0.8752655400021467
+pay order,place order,items,products,0.0,0,0,2000,39.288815660002
+create package,send package,packages,products,0.0,0,0,1128,33.64820528199925
+package delivered,package delivered,packages,items,0.0,0,0,0,0.3178245329982019
+reorder item,reorder item,items,products,0.0,0,0,0,0.6635111650030012
+pay order,place order,orders,products,0.0,0,0,2000,36.05426868599898
+create package,send package,packages,employees,0.0,0,0,1128,5.91987942999549
+package delivered,send package,items,products,0.0,0,0,1128,36.21674015899771
+send package,send package,packages,items,0.0,0,0,0,0.3137795439979527
+payment reminder,send package,items,products,0.0,0,0,1241,33.41983690299821
+confirm order,place order,orders,items,0.0,0,0,2000,1.0265982420023647
+payment reminder,payment reminder,orders,orders,0.0,0,0,150,0.1517238169981283
+failed delivery,package delivered,packages,items,0.0,0,0,311,0.2886533260025317
+place order,place order,orders,products,0.0,0,0,0,0.8717249420005828
+create package,package delivered,packages,packages,0.0,0,0,1128,0.32421501900535077
+create package,package delivered,packages,employees,0.0,0,0,1128,6.187288239998452
+package delivered,send package,packages,packages,0.0,0,0,1128,0.29596340200077975
+failed delivery,send package,packages,packages,0.0,0,0,311,0.12145073500141734
+confirm order,place order,orders,products,0.0,0,0,2000,37.34358765799698
+failed delivery,package delivered,packages,products,0.0,0,0,311,30.743682510001236
+pay order,pay order,items,products,0.0,0,0,0,3.531003044998215
+package delivered,package delivered,packages,employees,0.0,0,0,0,0.28956671099876985
+failed delivery,package delivered,packages,employees,0.0,0,0,311,5.2777039439970395
+place order,place order,orders,orders,0.0,0,0,0,0.8706698390014935
+create package,create package,packages,packages,0.0,0,0,0,0.28462805000162916
+pick item,reorder item,items,products,0.0,0,0,1544,37.940493291003804
+pay order,pay order,orders,orders,0.0,0,0,0,0.8664500209997641
+pay order,payment reminder,orders,items,0.0,0,0,566,0.5077513199939858
+place order,send package,items,products,0.0,0,0,4264,38.85554670899728
+payment reminder,reorder item,items,products,0.0,0,0,463,32.83845520199975
+confirm order,place order,products,customers,0.0,0,0,1866082,83.01994101599848
+payment reminder,payment reminder,orders,items,0.0,0,0,150,0.2698905540019041
+package delivered,reorder item,items,products,0.0,0,0,1544,36.53742048500135
+payment reminder,place order,orders,orders,0.0,0,0,566,0.2811654559991439
+package delivered,send package,packages,employees,0.06914893617021277,0,78,1128,6.07851087799645
+confirm order,payment reminder,orders,items,0.0,0,0,566,0.4581891959969653
+payment reminder,place order,orders,items,0.0,0,0,566,0.4437971099978313
+create package,failed delivery,packages,items,0.0,0,0,311,0.26582968400180107
+send package,send package,packages,packages,0.0,0,0,0,0.2827740119973896
+create package,package delivered,packages,items,0.0,0,0,1128,0.4776861159989494
+send package,send package,packages,products,0.0,0,0,0,0.2977379239964648
+pay order,place order,orders,orders,0.0,0,0,2000,0.8894274389967904
+pick item,pick item,items,products,0.0,0,0,0,12.903520818996185
+failed delivery,package delivered,products,employees,0.0,0,0,270003,62.12839366700064
+pay order,reorder item,products,items,0.0,0,0,540143,60.28202070600673
+confirm order,confirm order,products,items,0.0,0,0,932041,77.22076834600011
+package delivered,send package,products,employees,0.001637742558081799,0,1636,998936,82.90151514700119
+item out of stock,reorder item,products,items,0.0,0,0,120848,50.421374341000046
+item out of stock,send package,products,employees,0.0,0,0,496703,63.53608729899861
+item out of stock,pick item,products,employees,0.0,0,0,592765,72.15189038999961
+item out of stock,place order,products,items,0.0,0,0,540143,58.62625245600066
+reorder item,send package,products,employees,0.0,0,0,496703,61.950366552999185
+package delivered,package delivered,products,employees,0.0,0,0,498904,81.76790378699661
+create package,item out of stock,products,items,0.0,0,0,496703,64.65781694400357
+failed delivery,payment reminder,products,items,0.0,0,0,110020,49.26050760700309
+confirm order,pick item,products,items,0.0,0,0,2680362,98.3230399929962
+item out of stock,item out of stock,products,employees,0.0,0,0,59652,57.930839380002
+create package,create package,products,employees,0.0,0,0,498904,82.36383662799926
+package delivered,reorder item,products,items,0.0,0,0,496703,63.844913453001936
+item out of stock,package delivered,products,employees,0.0,0,0,496703,66.32643251300033
+confirm order,item out of stock,products,employees,0.0,0,0,540143,72.55746705900674
+confirm order,package delivered,products,employees,0.0,0,0,1430505,83.54710172199702
+confirm order,failed delivery,products,items,0.0,0,0,384774,56.160415155995
+package delivered,pick item,products,items,0.0,0,0,2463780,100.54794794099871
+failed delivery,send package,products,employees,0.001711092098976678,0,462,270003,62.97796660300082
+failed delivery,reorder item,products,items,0.0,0,0,132742,50.0471463770009
+package delivered,pay order,products,items,0.0,0,0,1430505,77.51774616899638
+create package,reorder item,products,items,0.0,0,0,496703,61.74137206200248
+create package,reorder item,products,employees,0.0,0,0,496703,72.32199207699887
+create package,package delivered,products,items,0.0,0,0,998936,72.47536888999457
+create package,create package,products,items,0.0,0,0,498904,70.32931183600158
+create package,failed delivery,products,items,0.0,0,0,270003,55.77971755500039
+pick item,pick item,products,employees,0.0,0,0,1467208,105.20178167099948
+item out of stock,payment reminder,products,items,0.0,0,0,157401,49.41393954399973
+package delivered,send package,products,items,0.0,0,0,998936,72.34132829499868
+confirm order,failed delivery,products,employees,0.0,0,0,384774,65.29535026400117
+item out of stock,pay order,products,items,0.0,0,0,540143,54.452537987999676
+confirm order,payment reminder,products,items,0.0,0,0,537777,63.33056459000363
+create package,failed delivery,products,employees,0.0,0,0,270003,63.93907443899661
+pick item,send package,products,employees,0.0,0,0,2463780,86.04052964699804
+place order,reorder item,products,items,0.0,0,0,540143,58.90502856400417
+create package,package delivered,products,employees,0.0,0,0,998936,81.23566447600024
+confirm order,pay order,products,items,0.0,0,0,1866082,80.90972767999483
+pick item,send package,products,items,0.0,0,0,2463780,71.49705514800007
+failed delivery,package delivered,products,items,0.0,0,0,270003,53.352484938004636
+item out of stock,package delivered,products,items,0.0,0,0,496703,57.69204350400105
+create package,send package,products,employees,0.0,0,0,998936,82.59774747899792
+create package,pick item,products,items,0.0,0,0,2463780,99.09664920300565
+confirm order,send package,products,items,0.0,0,0,1430505,74.0642453219989
+payment reminder,place order,products,items,0.0,0,0,537777,58.72785151099379
+item out of stock,send package,products,items,0.0,0,0,496703,53.7330107730013
+confirm order,item out of stock,products,items,0.0,0,0,540143,63.94509327600099
+create package,pick item,products,employees,0.0,0,0,2463780,113.53035545299645
+pick item,place order,products,items,0.0,0,0,2680362,73.45376692400168
+confirm order,send package,products,employees,0.0,0,0,1430505,83.4806167620045
+package delivered,reorder item,products,employees,0.0,0,0,496703,72.27493246700033
+pick item,reorder item,products,items,0.0,0,0,592765,57.833660536001844
+create package,payment reminder,products,items,0.0,0,0,409769,59.85536028400384
+reorder item,reorder item,products,employees,0.0,0,0,59652,56.889930195997295
+create package,send package,products,items,0.0,0,0,998936,72.4984542050006
+send package,send package,products,employees,0.00022850087391562305,0,114,498904,78.30699755599926
+payment reminder,send package,products,items,0.0,0,0,409769,54.33350022499508
+payment reminder,payment reminder,products,items,0.0,0,0,77312,50.95944454200071
+create package,pay order,products,items,0.0,0,0,1430505,78.92596708900237
+payment reminder,pick item,products,items,0.0,0,0,780615,66.20147872200323
+place order,place order,products,items,0.0,0,0,932041,75.9966268079952
+failed delivery,failed delivery,products,employees,0.0,0,0,36423,56.47958887799905
+confirm order,confirm order,products,employees,0.0,0,0,932041,92.21691560000181
+pay order,pick item,products,items,0.0,0,0,2680362,97.60193223399983
+failed delivery,place order,products,items,0.0,0,0,384774,56.37073704299837
+item out of stock,pick item,products,items,0.0,0,0,592765,61.58718562700233
+pay order,place order,products,items,0.0,0,0,1866082,77.88684816499881
+confirm order,pick item,products,employees,0.0,0,0,2680362,109.1588089509969
+create package,place order,products,items,0.0,0,0,1430505,77.07238564800355
+pick item,pick item,products,items,0.0,0,0,1467208,88.71228401499684
+pick item,reorder item,products,employees,0.0,0,0,592765,68.46160112900543
+confirm order,package delivered,products,items,0.0,0,0,1430505,74.17355960699933
+confirm order,reorder item,products,items,0.0,0,0,540143,61.05222674000106
+package delivered,payment reminder,products,items,0.0,0,0,409769,60.014267148995714
+failed delivery,reorder item,products,employees,0.0,0,0,132742,58.52211963100126
+failed delivery,failed delivery,products,items,0.0,0,0,36423,49.1905584000051
+pay order,payment reminder,products,items,0.0,0,0,537777,58.817562101001386
+failed delivery,pay order,products,items,0.0,0,0,384774,56.8184952599986
+failed delivery,pick item,products,employees,0.0,0,0,659939,72.38701777700044
+confirm order,reorder item,products,employees,0.0,0,0,540143,68.82995853500324
+place order,send package,products,items,0.0,0,0,1430505,73.29275672900258
+confirm order,create package,products,employees,0.0,0,0,1430505,81.38925091800047
+item out of stock,reorder item,products,employees,0.0,0,0,120848,61.75616476099822
+package delivered,place order,products,items,0.0,0,0,1430505,78.49392986699968
+confirm order,create package,products,items,0.0,0,0,1430505,71.81602989800012
+create package,item out of stock,products,employees,0.0,0,0,496703,73.69091293100064
+confirm order,place order,products,items,0.0,0,0,1866082,80.4308433949991
+item out of stock,item out of stock,products,items,0.0,0,0,59652,49.34063926599629
+failed delivery,pick item,products,items,0.0,0,0,659939,63.209151748000295
+failed delivery,item out of stock,products,items,0.0,0,0,132742,50.46643447400129
+failed delivery,send package,products,items,0.0,0,0,270003,54.509814075005124
+pay order,pay order,products,items,0.0,0,0,932041,76.90917200399417
+failed delivery,item out of stock,products,employees,0.0,0,0,132742,58.19903867699759
+payment reminder,reorder item,products,items,0.0,0,0,157401,49.109301101998426
+package delivered,pick item,products,employees,0.0,0,0,2463780,109.28039099000307
+place order,place order,products,customers,0.0,0,0,932041,78.8253156360006
+pay order,send package,products,items,0.0,0,0,1430505,72.21113811300165
+package delivered,package delivered,products,items,0.0,0,0,498904,71.41472631099896
+reorder item,send package,products,products,0.0,0,0,496703,107.84285948500474
+pay order,payment reminder,products,orders,0.0,0,0,537777,62.93510647700168
+failed delivery,pick item,products,products,0.0,0,0,659939,122.61826552500133
+package delivered,package delivered,products,products,0.0,0,0,498904,145.07170079799835
+pick item,reorder item,products,products,0.0,0,0,592765,121.77987154699804
+package delivered,pay order,products,products,0.0,0,0,1430505,157.28064313700452
+create package,reorder item,products,products,0.0,0,0,496703,127.87844542499806
+payment reminder,place order,products,orders,0.0,0,0,537777,63.29558548500063
+failed delivery,reorder item,products,products,0.0,0,0,132742,100.24297535899677
+pay order,pay order,products,products,0.0,0,0,932041,165.94830589000048
+place order,reorder item,products,products,0.0,0,0,540143,121.6437216780032
+item out of stock,pay order,products,products,0.0,0,0,540143,119.08990415500011
+failed delivery,send package,products,packages,0.0,0,0,270003,54.65049537699815
+pick item,pick item,products,products,0.0,0,0,1467208,201.1886703479977
+failed delivery,failed delivery,products,packages,0.0,0,0,36423,48.1472147989989
+confirm order,pick item,products,products,0.0,0,0,2680362,201.80798429300194
+pay order,reorder item,products,products,0.0,0,0,540143,119.3031346669959
+item out of stock,send package,products,products,0.0,0,0,496703,111.01396804100659
+package delivered,payment reminder,products,products,0.0,0,0,409769,117.32713339699694
+pay order,place order,products,orders,0.0,0,0,1866082,77.45564290099719
+confirm order,package delivered,products,products,0.0,0,0,1430505,156.36981055800425
+confirm order,send package,products,products,0.0,0,0,1430505,156.677189860995
+create package,item out of stock,products,products,0.0,0,0,496703,126.9209830050022
+payment reminder,send package,products,products,0.0,0,0,409769,107.94283438699495
+send package,send package,products,items,0.0,0,0,498904,66.87920424000185
+reorder item,reorder item,products,products,0.0,0,0,59652,96.03648414400232
+pay order,pick item,products,products,0.0,0,0,2680362,197.73243816499598
+item out of stock,place order,products,products,0.0,0,0,540143,121.24808099200163
+package delivered,pick item,products,products,0.0,0,0,2463780,191.9135608180004
+item out of stock,item out of stock,products,products,0.0,0,0,59652,95.0501597370021
+create package,pay order,products,products,0.0,0,0,1430505,160.2764138460043
+create package,send package,products,products,0.0,0,0,998936,155.4815894639978
+create package,create package,products,products,0.0,0,0,498904,143.82397225099703
+reorder item,send package,products,items,0.0,0,0,496703,54.10436568600562
+failed delivery,package delivered,products,packages,0.0,0,0,270003,53.12831925700448
+create package,failed delivery,products,packages,0.0,0,0,270003,55.28186360899417
+failed delivery,item out of stock,products,products,0.0,0,0,132742,101.12115626299783
+confirm order,create package,products,products,0.0,0,0,1430505,151.62013234399637
+confirm order,confirm order,products,products,0.0,0,0,932041,168.05750777100184
+item out of stock,pick item,products,products,0.0,0,0,592765,125.07505371200386
+confirm order,place order,products,orders,0.0,0,0,1866082,81.54681512599927
+item out of stock,reorder item,products,products,0.0,0,0,120848,100.54729567399772
+payment reminder,pick item,products,products,0.0,0,0,780615,131.10128049999912
+failed delivery,package delivered,products,products,0.0,0,0,270003,107.0221782370063
+confirm order,failed delivery,products,products,0.0,0,0,384774,112.02553415099828
+pay order,payment reminder,products,products,0.0,0,0,537777,116.89333881299535
+pay order,pay order,products,orders,0.0,0,0,932041,76.7660504710002
+place order,place order,products,orders,0.0,0,0,932041,75.65536978300224
+send package,send package,products,packages,0.0,0,0,498904,67.02751648600679
+create package,package delivered,products,products,0.0,0,0,998936,146.18442604399752
+reorder item,reorder item,products,items,0.0,0,0,59652,49.50978832400142
+pick item,send package,products,products,0.0,0,0,2463780,163.52755344199977
+failed delivery,failed delivery,products,products,0.0,0,0,36423,96.85513011000148
+failed delivery,payment reminder,products,products,0.0,0,0,110020,96.12884926699917
+create package,payment reminder,products,products,0.0,0,0,409769,117.98830356099643
+place order,place order,products,products,0.0,0,0,932041,165.7068691030072
+confirm order,pay order,products,products,0.0,0,0,1866082,170.58743883200077
+pay order,send package,products,products,0.0,0,0,1430505,151.16690394100442
+payment reminder,reorder item,products,products,0.0,0,0,157401,100.5897724680035
+failed delivery,pay order,products,products,0.0,0,0,384774,112.10416608899686
+package delivered,send package,products,products,0.0,0,0,998936,144.35936479199881
+failed delivery,send package,products,products,0.0,0,0,270003,108.78127243900235
+payment reminder,payment reminder,products,orders,0.0,0,0,77312,50.39397039399773
+package delivered,package delivered,products,packages,0.0,0,0,498904,70.25442738300626
+payment reminder,payment reminder,products,products,0.0,0,0,77312,100.74995077500353
+place order,send package,products,products,0.0,0,0,1430505,149.02637535500253
+item out of stock,payment reminder,products,products,0.0,0,0,157401,99.7369153719992
+pick item,place order,products,products,0.0,0,0,2680362,174.80480688799435
+send package,send package,products,products,0.0,0,0,498904,136.87138052599767
+create package,pick item,products,products,0.0,0,0,2463780,195.56244678200164
+create package,create package,products,packages,0.0,0,0,498904,70.04710014000011
+package delivered,send package,products,packages,0.0,0,0,998936,71.4994856379999
+create package,send package,products,packages,0.0,0,0,998936,72.25291208999988
+item out of stock,package delivered,products,products,0.0,0,0,496703,117.40972616699582
+payment reminder,place order,products,products,0.0,0,0,537777,119.90005926299636
+package delivered,reorder item,products,products,0.0,0,0,496703,120.44848020799691
+confirm order,pay order,products,orders,0.0,0,0,1866082,80.56764153899712
+failed delivery,place order,products,products,0.0,0,0,384774,111.59223454200401
+create package,failed delivery,products,products,0.0,0,0,270003,109.74472621300083
+package delivered,place order,products,products,0.0,0,0,1430505,157.11268910799845
+create package,package delivered,products,packages,0.0,0,0,998936,72.4189047109976
+confirm order,payment reminder,products,products,0.0,0,0,537777,128.04768016900198
+create package,place order,products,products,0.0,0,0,1430505,156.27046783699916
+confirm order,reorder item,products,products,0.0,0,0,540143,124.74485018999985
+confirm order,item out of stock,products,products,0.0,0,0,540143,123.72675785700267
+pay order,place order,products,products,0.0,0,0,1866082,163.8083919069977
+confirm order,place order,products,products,0.0,0,0,1866082,171.8308141000016
+confirm order,confirm order,products,orders,0.0,0,0,932041,77.29172900399863
+confirm order,payment reminder,products,orders,0.0,0,0,537777,63.359456598002

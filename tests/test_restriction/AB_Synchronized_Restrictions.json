@@ -1,0 +1,16 @@
+{
+  "narrow_var_arcs": [],
+  "optional_ot": [],
+  "synchronizations": [
+    {
+      "class_type": "SynchronizationRestriction",
+      "transitions": [
+        "A",
+        "B"
+      ],
+      "sync_type": "SYMETRIC",
+      "type_a": "red",
+      "type_b": "blue"
+    }
+    ]
+}

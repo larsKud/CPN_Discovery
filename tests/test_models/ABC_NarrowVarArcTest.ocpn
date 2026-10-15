@@ -1,0 +1,280 @@
+{
+  "ocpnName": "Demo OCPN",
+  "metadata": {
+    "name": "Demo OCPN",
+    "created": "2026-08-19T10:02:58.930Z",
+    "modified": "2026-08-19T10:02:58.930Z",
+    "generator": "OCPN Studio 0.8.4"
+  },
+  "petriNets": [
+    {
+      "id": "ID6",
+      "name": "TheoreticallyCorrectVarArc",
+      "places": [
+        {
+          "id": "c",
+          "name": "end place",
+          "colorSet": "INT",
+          "initialMarking": "",
+          "marking": [],
+          "position": {
+            "x": 61.94154488517745,
+            "y": 98.20459290187895
+          },
+          "size": {
+            "width": 50,
+            "height": 30
+          }
+        },
+        {
+          "id": "node_1778482725648",
+          "name": "start\nplace",
+          "colorSet": "INT",
+          "initialMarking": "[1,2,3,4,5,6,7,8]",
+          "marking": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "position": {
+            "x": -279.9372535130922,
+            "y": 95.29894520461238
+          },
+          "size": {
+            "width": 35,
+            "height": 35
+          },
+          "tokenCountOffset": {
+            "x": -35.77503241642059,
+            "y": -32.69495148090053
+          },
+          "markingOffset": {
+            "x": -22.313640832026174,
+            "y": -131.5510195342775
+          }
+        }
+      ],
+      "transitions": [
+        {
+          "id": "b",
+          "name": "A",
+          "guard": "",
+          "time": "",
+          "priority": "",
+          "codeSegment": "",
+          "position": {
+            "x": -102.18475330829662,
+            "y": 98.51138158253269
+          },
+          "size": {
+            "width": 62,
+            "height": 30
+          }
+        },
+        {
+          "id": "node_1787133716626",
+          "name": "B",
+          "guard": "",
+          "time": "",
+          "priority": "",
+          "codeSegment": "",
+          "position": {
+            "x": -96.83718816461294,
+            "y": 163.1880690110471
+          },
+          "size": {
+            "width": 60,
+            "height": 30
+          }
+        },
+        {
+          "id": "node_1787133740649",
+          "name": "C",
+          "guard": "",
+          "time": "",
+          "priority": "",
+          "codeSegment": "",
+          "position": {
+            "x": -105.02458946068316,
+            "y": 21.025010142918894
+          },
+          "size": {
+            "width": 60,
+            "height": 30
+          }
+        }
+      ],
+      "arcs": [
+        {
+          "id": "b->c",
+          "source": "b",
+          "target": "c",
+          "inscription": "Xs",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "id": "7d919cfd-7989-4ba8-9268-74394775f504",
+          "source": "node_1778482725648",
+          "target": "b",
+          "inscription": "Xs",
+          "delay": "",
+          "isBidirectional": false
+        },
+        {
+          "id": "0a15c803-1144-4e94-8d78-149f0048150b",
+          "source": "node_1778482725648",
+          "target": "node_1787133716626",
+          "inscription": "Xs",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": -0.7443092087336556,
+            "y": 5.210164461135589
+          }
+        },
+        {
+          "id": "a9ad84ae-8817-46c9-976a-98eefe541704",
+          "source": "node_1787133716626",
+          "target": "c",
+          "inscription": "Xs",
+          "delay": "",
+          "isBidirectional": false,
+          "labelOffset": {
+            "x": -7.070937482969728,
+            "y": 9.303865109170694
+          }
+        },
+        {
+          "id": "cdf8f847-57f7-4206-92f7-bd6a45f4ea87",
+          "source": "node_1778482725648",
+          "target": "node_1787133740649",
+          "inscription": "Xs",
+          "delay": "",
+          "isBidirectional": false
+        },
+        {
+          "id": "50180efd-410b-400f-9e20-01edcf33da5e",
+          "source": "node_1787133740649",
+          "target": "c",
+          "inscription": "Xs",
+          "delay": "",
+          "isBidirectional": false
+        }
+      ],
+      "declareConstraints": []
+    }
+  ],
+  "colorSets": [
+    {
+      "id": "8dc774e2-59b1-4c99-87ea-ae7bcd329a38",
+      "name": "UNIT",
+      "type": "basic",
+      "definition": "colset UNIT = unit;",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "d4ace6ed-392c-4a35-bc96-a5dadc9dbf5b",
+      "name": "BOOL",
+      "type": "basic",
+      "definition": "colset BOOL = bool;",
+      "color": "#10b981"
+    },
+    {
+      "id": "059041ad-7595-466b-ba33-1a6e150a4e84",
+      "name": "INT",
+      "type": "basic",
+      "definition": "colset INT = int;",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "ad1f2a18-e28a-4881-83e2-d0a0ca654ea9",
+      "name": "INTINF",
+      "type": "basic",
+      "definition": "colset INTINF = intinf;",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "201ea8cc-97af-4a29-b751-d5216c5d4898",
+      "name": "TIME",
+      "type": "basic",
+      "definition": "colset TIME = time;",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "9af2e9c5-215f-4c78-a592-caeeb0157ff5",
+      "name": "REAL",
+      "type": "basic",
+      "definition": "colset REAL = real;",
+      "color": "#ef4444"
+    },
+    {
+      "id": "feeaf1a4-b7b2-4bc2-955c-b8a87191db78",
+      "name": "STRING",
+      "type": "basic",
+      "definition": "colset STRING = string;",
+      "color": "#f59e0b"
+    },
+    {
+      "name": "MULT_INT",
+      "type": "list",
+      "definition": "colset MULT_INT = list INT;",
+      "color": "hsl(99, 70%, 55%)",
+      "timed": false,
+      "id": "391605bf-2d5b-4c63-9578-567174f716d2"
+    }
+  ],
+  "variables": [
+    {
+      "id": "6a8b8527-e4fd-414d-9449-a567a06a375f",
+      "name": "x",
+      "colorSet": "INT"
+    },
+    {
+      "name": "Xs",
+      "colorSet": "MULT_INT",
+      "id": "5dc278bb-0d6d-4b5c-8c0f-d890c4bdc2f3"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "15513171-77b0-4f2d-aaeb-0137858ca372",
+      "name": "P_HIGH",
+      "level": 100
+    },
+    {
+      "id": "f7b7c34e-d64d-4357-9185-f2e2aff40447",
+      "name": "P_NORMAL",
+      "level": 1000
+    },
+    {
+      "id": "b8f1a22b-121b-4824-9114-e5f56e2f15fe",
+      "name": "P_LOW",
+      "level": 10000
+    }
+  ],
+  "functions": [],
+  "uses": [],
+  "values": [],
+  "fusionSets": [],
+  "simulationSettings": {
+    "stepsPerRun": 50,
+    "animationDelayMs": 500,
+    "simulationEpoch": null,
+    "endTimeMs": null,
+    "keepAwakeWhileRunning": true
+  },
+  "viewSettings": {
+    "showMarkingDisplay": true,
+    "showDeclareLayer": true
+  }
+}

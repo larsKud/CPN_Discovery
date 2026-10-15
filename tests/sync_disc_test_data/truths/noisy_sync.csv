@@ -1,0 +1,9 @@
+,a1,a2,t1,t2,sync_ratio,sync_bool,Reason
+1,A,B,X,Y,1.0,1,X in both -> Y in both
+2,A,B,Y,X,0.75,1,3/4 is sync
+3,C,D,X,Y,0.33,0,1/3 is sync
+4,C,D,Y,X,0.0,0,just 1 pair
+5,H,J,X,Y,0.25,0,allways x1
+6,H,J,Y,X,1.0,1,Y->X holds
+7,E,F,X,Y,0.0,0,single
+8,E,F,Y,X,0.0,0,single

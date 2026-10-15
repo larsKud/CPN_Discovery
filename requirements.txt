@@ -1,0 +1,10 @@
+pandas
+numpy
+cpnpy
+matplotlib
+seaborn
+pm4py
+pytest
+pandarallel
+streamlit
+joblib

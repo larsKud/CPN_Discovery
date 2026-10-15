@@ -1,0 +1,70 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+             },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Backend",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/CpnDiscovery/main.py",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+             },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Sync Disc",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/CpnDiscovery/o2o_sync.py",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+             },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Main",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/CpnDiscovery/main.py",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+             },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Sync Flow",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/CpnDiscovery/control_flow_sync.py",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+             },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Streamlit",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/Frontend/main.py"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+activity,events per activity
+confirm order,2000
+create package,1128
+failed delivery,311
+item out of stock,1544
+package delivered,1128
+pay order,2000
+payment reminder,566
+pick item,7659
+place order,2000
+reorder item,1544
+send package,1128

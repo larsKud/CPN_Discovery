@@ -1,0 +1,150 @@
+,Unnamed: 0,a1,a2,t1,t2,sync_ratio,sync_bool, reason
+0,0,place_order,place_order,customers,customers,0.0,0, single object
+1,1,place_order,recive_package,customers,customers,0.0,0, single object
+2,2,place_order,send_package,customers,customers,0.0,0, single object
+3,3,recive_package,recive_package,customers,customers,0.0,0, single object
+4,4,recive_package,send_package,customers,customers,0.0,0, single object
+5,5,send_package,send_package,customers,customers,0.0,0, non repeating
+6,6,place_order,place_order,customers,employees,0.0,0, single event pair
+7,7,place_order,recive_package,customers,employees,0.2857142857142857,0, random noise
+8,8,place_order,send_package,customers,employees,0.2857142857142857,0, random noise
+9,9,recive_package,recive_package,customers,employees,0.0,0, not even random sync
+10,10,recive_package,send_package,customers,employees,0.7142857142857143,1, lots of random sync (depends on threshold)
+11,11,send_package,send_package,customers,employees,0.0,0, not even random sync
+12,12,place_order,place_order,customers,items,0.0,0, non repeating t2
+13,13,place_order,place_order,customers,orders,0.0,0, non repeating t2
+14,14,place_order,send_package,customers,orders,0.7142857142857143,1, sync because most c have one
+15,15,send_package,send_package,customers,orders,0.0,0, non repeating t2
+16,16,recive_package,recive_package,customers,packages,0.0,0, non repeating t2
+17,17,recive_package,send_package,customers,packages,0.7142857142857143,1, sync because most c have one
+18,18,send_package,send_package,customers,packages,0.0,0, non repeating t2
+19,19,place_order,place_order,customers,products,,0, some sync but should be insignificant
+20,20,place_order,send_package,customers,products,,1, enough random sync (depends on threshold)
+21,21,send_package,send_package,customers,products,0,0, sync if single event pair and min
+22,22,place_order,place_order,employees,customers,0.0,0, single object
+23,23,place_order,recive_package,employees,customers,0.5,0, random sync (depends on threshold)
+24,24,place_order,send_package,employees,customers,0.5,0, random sync (depends on threshold)
+25,25,recive_package,recive_package,employees,customers,0.0,0, not even random sync
+26,26,recive_package,send_package,employees,customers,0.5555555555555556,1, random symetric (depends on threshold)
+27,27,send_package,send_package,employees,customers,0.0,0, not even random sync
+28,28,pack_items,pack_items,employees,employees,0.0,0, only self pairs
+29,29,pack_items,place_order,employees,employees,0.0,0, 
+30,30,pack_items,recive_package,employees,employees,0.0,0,
+31,31,pack_items,send_package,employees,employees,0.0,0,
+32,32,place_order,place_order,employees,employees,0.0,0,
+33,33,place_order,recive_package,employees,employees,0.0,0,
+34,34,place_order,send_package,employees,employees,0.0,0,
+35,35,recive_package,recive_package,employees,employees,0.0,0,
+36,36,recive_package,send_package,employees,employees,0.0,0,
+37,37,send_package,send_package,employees,employees,0.0,0,
+38,38,pack_items,pack_items,employees,items,0.0,0,
+39,39,pack_items,place_order,employees,items,0.0,0,
+40,40,place_order,place_order,employees,items,0.0,0,
+41,41,pack_items,pack_items,employees,orders,0.1333333333333333,0,
+42,42,pack_items,place_order,employees,orders,0.0,0,
+43,43,pack_items,send_package,employees,orders,0.0,0,
+44,44,place_order,place_order,employees,orders,0.0,0,
+45,45,place_order,send_package,employees,orders,0.25,0,
+46,46,send_package,send_package,employees,orders,0.0,0,
+47,47,pack_items,pack_items,employees,packages,0.1333333333333333,0,
+48,48,pack_items,recive_package,employees,packages,0.0,0,
+49,49,pack_items,send_package,employees,packages,0.0,0,
+50,50,recive_package,recive_package,employees,packages,0.0,0,
+51,51,recive_package,send_package,employees,packages,0.5555555555555556,1, random symetric (depends on threshold)
+52,52,send_package,send_package,employees,packages,0.0,0, 
+53,53,pack_items,pack_items,employees,products,0.2666666666666666,0,
+54,54,pack_items,place_order,employees,products,0.0,0,
+55,55,pack_items,send_package,employees,products,0.0,0,
+56,56,place_order,place_order,employees,products,0.0,0, sync if single event pair and min
+57,57,place_order,send_package,employees,products,0.75,1, random sync
+58,58,send_package,send_package,employees,products,0.5,0, sync if min an (depends on threshold)
+59,59,place_order,place_order,items,customers,0.0,0, non repeating
+60,60,pack_items,pack_items,items,employees,0.0,0, non repeating
+61,61,pack_items,place_order,items,employees,0.0,0, not even random sync
+62,62,place_order,place_order,items,employees,0.0,0, non repeating
+63,63,pack_items,pack_items,items,items,0.0,0, non repeating
+64,64,pack_items,place_order,items,items,0.0,0, false; cuz no self pairs
+65,65,place_order,place_order,items,items,0.0,0, non repeating 
+66,66,pack_items,pack_items,items,orders,0.0,0, non repeating
+67,67,pack_items,place_order,items,orders,1.0,1, 
+68,68,place_order,place_order,items,orders,0.0,0, non repeating
+69,69,pack_items,pack_items,items,packages,0.0,0, non repeating
+70,70,pack_items,pack_items,items,products,0.0,0, non repeating
+71,71,pack_items,place_order,items,products,1.0,1, 
+72,72,place_order,place_order,items,products,0.0,0, non repeating
+73,73,place_order,place_order,orders,customers,0.0,0, non repeating
+74,74,place_order,send_package,orders,customers,1.0,1,
+75,75,send_package,send_package,orders,customers,0.0,0, non repeating
+76,76,pack_items,pack_items,orders,employees,0.2857142857142857,0, random sync (depends on threshold)
+77,77,pack_items,place_order,orders,employees,0.0,0, not even random sync
+78,78,pack_items,send_package,orders,employees,0.0,0, not evne random sync
+79,79,place_order,place_order,orders,employees,0.0,0, non repeating
+80,80,place_order,send_package,orders,employees,0.2,0, random sync
+81,81,send_package,send_package,orders,employees,0.0,0, non repeating
+82,82,pack_items,pack_items,orders,items,0.0,0, items switch
+83,83,pack_items,place_order,orders,items,0.9,1, error in dataset (real noise)
+84,84,place_order,place_order,orders,items,0.0,0, non repeating
+85,85,pack_items,pack_items,orders,orders,0.0,0, only self pairs
+86,86,pack_items,place_order,orders,orders,0.0,0, only self pairs
+87,87,pack_items,send_package,orders,orders,0.0,0, only self pairs
+88,88,place_order,place_order,orders,orders,0.0,0, only self pairs
+89,89,place_order,send_package,orders,orders,0.0,0, only self pairs
+90,90,send_package,send_package,orders,orders,0.0,0, only self pairs
+91,91,pack_items,pack_items,orders,packages,1.0,1
+92,92,pack_items,send_package,orders,packages,1.0,1
+93,93,send_package,send_package,orders,packages,0.0,0, non repeating
+94,94,pack_items,pack_items,orders,products,0.1428571428571428,0, random sync
+95,95,pack_items,place_order,orders,products,1.0,1, 
+96,96,pack_items,send_package,orders,products,1.0,1,
+97,97,place_order,place_order,orders,products,0.0,0, non repeating
+98,98,place_order,send_package,orders,products,1.0,1, 
+99,99,send_package,send_package,orders,products,0.0,0, non repeating
+100,100,recive_package,recive_package,packages,customers,0.0,0, non repeating
+101,101,recive_package,send_package,packages,customers,1.0,1
+102,102,send_package,send_package,packages,customers,0.0,0, non repeating
+103,103,pack_items,pack_items,packages,employees,0.2857142857142857,0, random sync
+104,104,pack_items,recive_package,packages,employees,0.0,0, not even random sync
+105,105,pack_items,send_package,packages,employees,0.0,0, not even random sync
+106,106,recive_package,recive_package,packages,employees,0.0,0, non repeating
+107,107,recive_package,send_package,packages,employees,1.0,1,
+108,108,send_package,send_package,packages,employees,0.0,0, non repeating
+109,109,pack_items,pack_items,packages,items,0.0,0, items switch
+110,110,pack_items,pack_items,packages,orders,1.0,1, 
+111,111,pack_items,send_package,packages,orders,1.0,1,
+112,112,send_package,send_package,packages,orders,0.0,0, non repeating
+113,113,pack_items,pack_items,packages,packages,0.0,0, only self pairs
+114,114,pack_items,recive_package,packages,packages,0.0,0, only self pairs
+115,115,pack_items,send_package,packages,packages,0.0,0,
+116,116,recive_package,recive_package,packages,packages,0.0,0,
+117,117,recive_package,send_package,packages,packages,0.0,0,
+118,118,send_package,send_package,packages,packages,0.0,0,
+119,119,pack_items,pack_items,packages,products,0.1428571428571428,0, random sync insignificant
+120,120,pack_items,send_package,packages,products,1.0,1, 
+121,121,send_package,send_package,packages,products,0.0,0, non repeating
+122,122,place_order,place_order,products,customers,0.25,0, random sync
+123,123,place_order,send_package,products,customers,0.5384615384615384,1, random sync (depends on threhsold)
+124,124,send_package,send_package,products,customers,0.25,0, random sync
+125,125,pack_items,pack_items,products,employees,0.5,0, random sync (depends on threhsold)
+126,126,pack_items,place_order,products,employees,0.0,0,
+127,127,pack_items,send_package,products,employees,0.0,0,
+128,128,place_order,place_order,products,employees,0.25,0, random sync
+129,129,place_order,send_package,products,employees,0.2307692307692307,0, random sync
+130,130,send_package,send_package,products,employees,0.25,0, random sync
+131,131,pack_items,pack_items,products,items,0.0,0, random sync
+132,132,pack_items,place_order,products,items,0.4090909090909091,0, random sync (depends on threhsold)
+133,133,place_order,place_order,products,items,0.0,0,
+134,134,pack_items,pack_items,products,orders,0.125,0,
+135,135,pack_items,place_order,products,orders,0.4545454545454545,0, random sync (depends on threhsold)
+136,136,pack_items,send_package,products,orders,0.4545454545454545,0, random sync (depends on threhsold)
+137,137,place_order,place_order,products,orders,0.0,0,
+138,138,place_order,send_package,products,orders,0.3846153846153846,0, random sync (depends on threhsold)
+139,139,send_package,send_package,products,orders,0.0,0,
+140,140,pack_items,pack_items,products,packages,0.125,0,
+141,141,pack_items,send_package,products,packages,0.4545454545454545,0, random sync (depends on threhsold)
+142,142,send_package,send_package,products,packages,0.0,0,
+143,143,pack_items,pack_items,products,products,0.0,0,
+144,144,pack_items,place_order,products,products,0.0,0,
+145,145,pack_items,send_package,products,products,0.0,0,
+146,146,place_order,place_order,products,products,0.25,0,
+147,147,place_order,send_package,products,products,0.3846153846153846,0, random sync (depends on threhsold)
+148,148,send_package,send_package,products,products,0.25,0,

@@ -1,0 +1,21 @@
+{
+  "narrow_var_arcs": [
+    {
+      "transition": "A",
+      "type": "range",
+      "range": [1,11],
+      "otype": "INT"
+    }
+  ],
+  "optional_ot": [
+    {
+      "transition": "A",
+      "otype": "INT"
+    },
+    {
+      "transition": "C",
+      "otype": "INT"
+    }
+  ],
+  "synchronizations": []
+}

@@ -1,0 +1,87 @@
+{
+  "narrow_var_arcs": [
+    {
+      "transition": "Book Vehicles",
+      "type": "range",
+      "range": [
+        1,
+        2
+      ],
+      "otype": "Vehicle"
+    },
+    {
+      "transition": "Order Empty Containers",
+      "type": "range",
+      "range": [
+        1,
+        5
+      ],
+      "otype": "Container"
+    },
+    {
+      "transition": "Depart",
+      "type": "range",
+      "range": [
+        2,
+        39
+      ],
+      "otype": "Container"
+    },
+    {
+      "transition": "Depart",
+      "type": "range",
+      "range": [
+        1,
+        13
+      ],
+      "otype": "Transport Document"
+    }
+  ],
+  "optional_ot": [],
+  "synchronizations": [
+    {
+      "class_type": "SynchronizationRestriction",
+      "transitions": [
+        "Place in Stock",
+        "Bring to Loading Bay",
+        "Load to Vehicle",
+        "Weigh"
+      ],
+      "sync_type": "IMPLICATION",
+      "type_a": "Container",
+      "type_b": "Forklift"
+    },
+    {
+      "class_type": "SynchronizationRestriction",
+      "transitions": [
+        "Reschedule Container",
+        "Depart",
+        "Order Empty Containers"
+      ],
+      "sync_type": "IMPLICATION",
+      "type_a": "Container",
+      "type_b": "Transport Document"
+    },
+    {
+      "class_type": "SynchronizationRestriction",
+      "transitions": [
+        "Load to Vehicle",
+        "Depart",
+        "Reschedule Container"
+      ],
+      "sync_type": "IMPLICATION",
+      "type_a": "Container",
+      "type_b": "Vehicle"
+    },
+    {
+      "class_type": "SynchronizationRestriction",
+      "transitions": [
+        "Load Truck",
+        "Drive to Terminal"
+      ],
+      "sync_type": "IMPLICATION",
+      "type_a": "Container",
+      "type_b": "Truck"
+    }
+  ]
+}
